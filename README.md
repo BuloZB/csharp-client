@@ -1,38 +1,30 @@
-©2013,2014 BITPAY, INC.
+bitpay/csharp-client
 
-Permission is hereby granted to any person obtaining a copy of this software
-and associated documentation for use and/or modification in association with
-the bitpay.com service.
+# Installation
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-Bitcoin C# payment library using the bitpay.com service.
-
-
-Installation
-------------
 Import these files into your custom shopping cart implementation project.
 
 
-Configuration
--------------
+# Configuration
+
 1. Create an API key at bitpay.com by clicking My Account > API Access Keys > Add New API Key
 
 
-Usage
------
+# Usage
+
 1. See API documentation at https://bitpay.com/bitcoin-payment-gateway-api
 
+# Support
 
-Troubleshooting
----------------
+## BitPay Support
+
+* [GitHub Issues](https://github.com/bitpay/csharp-client/issues)
+  * Open an issue if you are having issues with this plugin.
+* [Support](https://support.bitpay.com)
+  * BitPay merchant support documentation
+
+# Troubleshooting
+
 The official BitPay API documentation should always be your first reference for development:
 https://bitpay.com/downloads/bitpayApi.pdf
 
@@ -51,11 +43,30 @@ https://bitpay.com/downloads/bitpayApi.pdf
    the latest version. Your issue might have been addressed in a newer version of the library.
 8. If all else fails, send an email describing your issue *in detail* to support@bitpay.com
 
+# Contribute
 
-Change Log
-----------
-Version 1
-  - Initial version, Supported with Visual Studio 2012, .Net 4.5
+To contribute to this project, please fork and submit a pull request.
 
-Version 1.1, rich@bitpay.com
-  - Improved documentation
+# License
+
+The MIT License (MIT)
+
+Copyright (c) 2011-2014 BitPay
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
